@@ -1,0 +1,49 @@
+# PlatformIO Project Configuration File
+.pio
+CMakeListsPrivate.txt
+cmake-build-*/ 
+
+# Compiled object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# Build directory
+cmake-build-*/
+
+# Dependency directories
+bin/
+lib/
+
+# CLion specific files
+.cproject
+.project
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS specific files
+.DS_Store
+
+# Visual Studio Code specific files
+.vscode/
+
+# Sublime Text specific files
+*.sublime-project
+*.sublime-workspace
+
+# Makefile
+Makefile
+makefile
+Makefile.*
